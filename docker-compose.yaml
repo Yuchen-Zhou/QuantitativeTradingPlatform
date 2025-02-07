@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  pytorch:
+    image: deepseeklocal:0.0.1
+    volumes:
+      - ./DeepSeekLocal:/workspace
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    ports:
+      - "8888:8888"
+    container_name: deepseek-local
+    tty: true
+    runtime: nvidia
+

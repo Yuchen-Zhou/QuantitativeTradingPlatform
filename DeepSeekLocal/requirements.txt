@@ -1,0 +1,11 @@
+# 基础依赖
+torch==2.4.1
+triton==3.0.0
+transformers==4.46.3
+safetensors==0.4.5
+
+# 可选依赖（根据需求取消注释）
+# bitsandbytes>=0.41.0  # 量化支持
+# gradio>=3.0.0         # 如果需要Web界面
+# flask>=2.0.0          # 如果需要API服务
+# scipy>=1.11.0         # 某些模型需要
