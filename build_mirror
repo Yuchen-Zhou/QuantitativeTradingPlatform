@@ -1,0 +1,2 @@
+#! /bin/bash
+docker build -t tradindplatform_backend:0.0.1 ./TradingPlatform/

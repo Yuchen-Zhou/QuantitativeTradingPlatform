@@ -8,7 +8,7 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /workspace
 
 RUN apt-get update && \
-    apt-get install -y libpq-dev
+    apt-get install -y libpq-dev gcc build-essential
 
 # 安装项目依赖
 COPY ./requirements.txt /workspace/requirements.txt

@@ -1,8 +1,9 @@
 Django>=4.0,<5.0
+django-redis
 djangorestframework
-psycopg2
 celery
 redis
 pandas
 numpy
 matplotlib
+psycopg2
